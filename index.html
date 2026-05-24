@@ -1,0 +1,48 @@
+<style>
+  .btn-wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    padding: 14px 28px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px; /* Fully rounded buttons */
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+  }
+
+  /* Primary Button (Client Portal) */
+  .btn-client {
+    background-color: #0056b3;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.3);
+  }
+  .btn-client:hover {
+    background-color: #004494;
+    transform: translateY(-3px);
+  }
+
+  /* Secondary Button (Payment/Voucher) */
+  .btn-pay {
+    background-color: #28a745;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+  }
+  .btn-pay:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+  }
+</style>
+
+<div class="btn-wrapper">
+  <a href="https://client.at.dz" class="btn btn-client">فضاء الزبون (Client)</a>
+  <a href="https://paiement.at.dz/AR/index.php?p=voucher_internet" class="btn btn-pay">تعبئة الإنترنت (Voucher)</a>
+</div>
